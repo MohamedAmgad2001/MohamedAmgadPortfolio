@@ -1,0 +1,13 @@
+@import url(style1.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+
+:root {
+  --gray-color: #d8d8d8;
+  --black-char-color: #6d6d6d;
+}
+
+* {
+  margin: 0;
+}

@@ -1,0 +1,79 @@
+.project {
+  margin: 5em;
+}
+
+.project h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: var(--black-char-color);
+}
+.project h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #999999;
+}
+.project p {
+  font-family: "Poppins", sans-serif;
+  color: var(--black-char-color);
+}
+.project-main {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.image img {
+  max-width: 400px;
+  height: 400px;
+}
+
+.img-left,
+.img-right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.desc {
+  width: 50%;
+  padding: 3em;
+}
+
+.img-left {
+  flex-direction: row;
+}
+
+.img-right {
+  flex-direction: row-reverse;
+  gap: 5em;
+}
+
+.img-right .image {
+  order: 1;
+}
+
+.img-right .desc {
+  order: 2;
+  text-align: right;
+  margin-left: 2em;
+  text-wrap: wrap;
+}
+
+.img-left .image {
+  order: 1;
+  margin-left: 5em;
+}
+
+.img-left .desc {
+  order: 2;
+  text-align: left;
+  text-wrap: wrap;
+}

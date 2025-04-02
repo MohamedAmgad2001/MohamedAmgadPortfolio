@@ -1,0 +1,55 @@
+#main-header {
+  width: 100%;
+  display: flex;
+}
+
+.all {
+  display: flex;
+  width: 80%;
+  height: 312px;
+  position: relative;
+}
+
+.left {
+  width: 80%;
+  background-color: var(--gray-color);
+  height: 100%;
+}
+
+.name {
+  position: absolute;
+  left: 75%;
+  top: 7%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: var(--black-char-color);
+}
+.socials {
+  position: absolute;
+  left: 75%;
+  top: 85%;
+  display: flex;
+  gap: 10px;
+}
+.social {
+  display: inline;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+.cv {
+  width: 7em;
+  height: 3em;
+  background-color: #ffe8e8;
+  position: absolute;
+  display: flex;
+  left: 75%;
+  top: 95%;
+}
+.cv a {
+  text-decoration: none;
+  text-align: center;
+  color: var(--black-char-color);
+  margin: auto;
+}

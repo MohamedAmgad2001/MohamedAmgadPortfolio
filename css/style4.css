@@ -1,0 +1,55 @@
+.about {
+  margin: 5em;
+  position: relative;
+}
+
+.about h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: var(--black-char-color);
+}
+.about img {
+  width: 100%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 15em;
+  object-fit: fill;
+}
+.about p {
+  color: var(--black-char-color);
+}
+.info {
+  font-family: "Poppins", sans-serif;
+}
+.autograph {
+  font-family: "Pacifico", cursive;
+  font-size: 1em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-left: 0.5em;
+}
+.data {
+  width: 20em;
+  height: 16em;
+  background-color: #ffe8e8;
+  position: absolute;
+  left: 70%;
+  top: 60%;
+}
+.data h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  margin-left: 2em;
+  margin-top: 0.5em;
+  color: #7e7c7c;
+}
+.data p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 2em;
+  text-wrap: wrap;
+  color: #2e2e2e;
+}
