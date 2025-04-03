@@ -11,3 +11,41 @@
 * {
   margin: 0;
 }
+.work,
+.project,
+.about {
+  margin: 5em 10%;
+}
+
+.work-main,
+.project-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.work-left,
+.work-right,
+.desc {
+  width: 100%;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-left,
+.img-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.image,
+.desc {
+  width: 100%;
+  text-align: center;
+}
